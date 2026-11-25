@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace SendbirdSDK\DTOs\Get\AGroupChannel\Response;
 
+/** @extends \Dmorenof\SdkRuntime\Map<int> */
 final class ReadReceiptMap extends \Dmorenof\SdkRuntime\Map
 {
     protected const string VALUE_TYPE = 'int';
