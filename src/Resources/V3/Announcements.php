@@ -33,5 +33,4 @@ final class Announcements extends \SendbirdSDK\Client
         $result = $this->executeArguments(self::operation(self::POST), parameters: $params);
         return $result;
     }
-
 }

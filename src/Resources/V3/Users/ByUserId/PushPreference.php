@@ -151,5 +151,4 @@ final class PushPreference extends \SendbirdSDK\Client
         $result = $this->executeArguments(self::operation(self::PUT_BY_CHANNEL_URL), path: $identifier, parameters: $params);
         return $result;
     }
-
 }

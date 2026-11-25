@@ -151,5 +151,4 @@ final class Messages extends \SendbirdSDK\Client
         $result = $this->executeArguments(self::operation(self::PUT_BY_MESSAGE_ID), path: $identifier, parameters: $params);
         return $result;
     }
-
 }

@@ -25,5 +25,4 @@ final class Template extends \SendbirdSDK\SendbirdPlatformSDK
     {
         return self::client()->resource(\SendbirdSDK\Resources\V3\Users\ByUserId\Push\Template::class)->put($user_id, $params);
     }
-
 }

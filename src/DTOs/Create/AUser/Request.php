@@ -7,10 +7,10 @@ namespace SendbirdSDK\DTOs\Create\AUser;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'nickname',
-    'profile_url',
-    'user_id',
-];
+        'nickname',
+        'profile_url',
+        'user_id',
+    ];
 
     public ?\SendbirdSDK\Collections\StringCollection $discovery_keys;
     public bool $issue_access_token;

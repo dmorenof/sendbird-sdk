@@ -23,5 +23,4 @@ final class Accept extends \SendbirdSDK\SendbirdPlatformSDK
     {
         return self::client()->resource(\SendbirdSDK\Resources\V3\GroupChannels\ByChannelUrl\Accept::class)->put($channel_url, $params);
     }
-
 }

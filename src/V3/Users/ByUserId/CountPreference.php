@@ -39,5 +39,4 @@ final class CountPreference extends \SendbirdSDK\SendbirdPlatformSDK
     {
         return self::client()->resource(\SendbirdSDK\Resources\V3\Users\ByUserId\CountPreference::class)->putByChannelUrl($identifier, $params);
     }
-
 }

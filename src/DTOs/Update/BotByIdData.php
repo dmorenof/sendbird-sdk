@@ -10,15 +10,15 @@ namespace SendbirdSDK\DTOs\Update;
 final class BotByIdData extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'bot_callback_url',
-    'bot_nickname',
-    'bot_profile_url',
-    'bot_userid',
-    'channel_invitation_preference',
-    'enable_mark_as_read',
-    'is_privacy_mode',
-    'show_member',
-];
+        'bot_callback_url',
+        'bot_nickname',
+        'bot_profile_url',
+        'bot_userid',
+        'channel_invitation_preference',
+        'enable_mark_as_read',
+        'is_privacy_mode',
+        'show_member',
+    ];
 
     /**
      * Specifies the server URL where bot is located to receive all events, requests, and data forwarded from an application. For security reasons, it is highly recommended that you use an SSL server. The length is limited to 1,024 characters.

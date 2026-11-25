@@ -45,5 +45,4 @@ final class Migration extends \SendbirdSDK\Client
         $result = $this->executeArguments(self::operation(self::POST_BY_TARGET_CHANNEL_URL), path: ['target_channel_url' => $target_channel_url], parameters: $params);
         return $result;
     }
-
 }

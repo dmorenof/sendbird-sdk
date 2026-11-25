@@ -50,5 +50,4 @@ final class Channels extends \SendbirdSDK\SendbirdPlatformSDK
     {
         return self::client()->resource(\SendbirdSDK\Resources\V3\Bots\ByBotUserid\Channels::class)->deleteByChannelUrl($identifier, $params);
     }
-
 }

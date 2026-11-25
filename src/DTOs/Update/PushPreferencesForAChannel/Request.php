@@ -7,8 +7,8 @@ namespace SendbirdSDK\DTOs\Update\PushPreferencesForAChannel;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'push_trigger_option',
-];
+        'push_trigger_option',
+    ];
 
     public string $push_sound;
     /**

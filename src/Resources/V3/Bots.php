@@ -133,5 +133,4 @@ final class Bots extends \SendbirdSDK\Client
         $result = $this->executeArguments(self::operation(self::PUT_BY_BOT_USERID), path: ['bot_userid' => $bot_userid], parameters: $params);
         return $result;
     }
-
 }

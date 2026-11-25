@@ -7,8 +7,8 @@ namespace SendbirdSDK\DTOs;
 final class LeaveAChannelRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'user_ids',
-];
+        'user_ids',
+    ];
 
     /**
      * Specifies the reason for leaving a channel. Acceptable values are admin_removed, admin_deleted, admin_deactivated, left_by_own_choice, and channel_operator_removed.

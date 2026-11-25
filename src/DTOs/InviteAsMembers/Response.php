@@ -7,8 +7,8 @@ namespace SendbirdSDK\DTOs\InviteAsMembers;
 final class Response extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'channel_url',
-];
+        'channel_url',
+    ];
 
     public string $channel_url;
     public \SendbirdSDK\Enums\InviteAsMembers\Response\CountPreferenceEnum $count_preference;

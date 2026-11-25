@@ -20,5 +20,4 @@ final class MarkAsRead extends \SendbirdSDK\SendbirdPlatformSDK
     {
         return self::client()->resource(\SendbirdSDK\Resources\V3\GroupChannels\ByChannelUrl\Messages\MarkAsRead::class)->put($channel_url, $params);
     }
-
 }

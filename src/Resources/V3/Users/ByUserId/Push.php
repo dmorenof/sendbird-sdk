@@ -84,5 +84,4 @@ final class Push extends \SendbirdSDK\Client
         $result = $this->executeArguments(self::operation(self::POST_BY_TOKEN_TYPE), path: $identifier, parameters: $params);
         return $result;
     }
-
 }

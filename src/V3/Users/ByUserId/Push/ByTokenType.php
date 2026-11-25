@@ -20,5 +20,4 @@ final class ByTokenType extends \SendbirdSDK\SendbirdPlatformSDK
     {
         return self::client()->resource(\SendbirdSDK\Resources\V3\Users\ByUserId\Push\ByTokenType::class)->deleteByToken($identifier, $params);
     }
-
 }

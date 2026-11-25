@@ -23,5 +23,4 @@ final class Dau extends \SendbirdSDK\SendbirdPlatformSDK
     {
         return self::client()->resource(\SendbirdSDK\Resources\V3\Applications\Dau::class)->get($params);
     }
-
 }

@@ -7,8 +7,8 @@ namespace SendbirdSDK\DTOs;
 final class JoinChannelsRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'channel_urls',
-];
+        'channel_urls',
+    ];
 
     public \SendbirdSDK\Collections\StringCollection $channel_urls;
 

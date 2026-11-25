@@ -129,5 +129,4 @@ final class OpenChannels extends \SendbirdSDK\Client
         $result = $this->executeArguments(self::operation(self::PUT_BY_CHANNEL_URL), path: ['channel_url' => $channel_url], parameters: $params);
         return $result;
     }
-
 }

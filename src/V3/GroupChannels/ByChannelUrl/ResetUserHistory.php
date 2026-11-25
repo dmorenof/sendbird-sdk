@@ -24,5 +24,4 @@ final class ResetUserHistory extends \SendbirdSDK\SendbirdPlatformSDK
     {
         return self::client()->resource(\SendbirdSDK\Resources\V3\GroupChannels\ByChannelUrl\ResetUserHistory::class)->put($channel_url, $params);
     }
-
 }

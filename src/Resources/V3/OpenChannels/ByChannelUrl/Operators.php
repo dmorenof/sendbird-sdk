@@ -85,5 +85,4 @@ final class Operators extends \SendbirdSDK\Client
         $result = $this->executeArguments(self::operation(self::POST), path: ['channel_url' => $channel_url], parameters: $params);
         return $result;
     }
-
 }

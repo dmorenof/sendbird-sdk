@@ -7,8 +7,8 @@ namespace SendbirdSDK\DTOs;
 final class RegisterOperatorsToAGroupChannelRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'operator_ids',
-];
+        'operator_ids',
+    ];
 
     public \SendbirdSDK\Collections\StringCollection $operator_ids;
 

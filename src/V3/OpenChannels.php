@@ -82,5 +82,4 @@ final class OpenChannels extends \SendbirdSDK\SendbirdPlatformSDK
     {
         return self::client()->resource(\SendbirdSDK\Resources\V3\OpenChannels::class)->putByChannelUrl($channel_url, $params);
     }
-
 }

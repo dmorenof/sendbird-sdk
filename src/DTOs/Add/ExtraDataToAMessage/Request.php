@@ -7,8 +7,8 @@ namespace SendbirdSDK\DTOs\Add\ExtraDataToAMessage;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'sorted_metaarray',
-];
+        'sorted_metaarray',
+    ];
 
     public \SendbirdSDK\Collections\Send\ABotMessage\Request\SortedMetaarrayCollection $sorted_metaarray;
 

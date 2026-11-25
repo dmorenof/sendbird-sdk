@@ -10,8 +10,8 @@ namespace SendbirdSDK\DTOs\Create;
 final class ABotResponseBot extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'bot_userid',
-];
+        'bot_userid',
+    ];
 
     public string $ai_agent_type;
     public \SendbirdSDK\DTOs\Create\ABotResponseBot\BotMetadataDTO $bot_metadata;

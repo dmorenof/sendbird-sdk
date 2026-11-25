@@ -36,5 +36,4 @@ final class Freeze extends \SendbirdSDK\Client
         $result = $this->executeArguments(self::operation(self::PUT), path: ['channel_url' => $channel_url], parameters: $params);
         return $result;
     }
-
 }

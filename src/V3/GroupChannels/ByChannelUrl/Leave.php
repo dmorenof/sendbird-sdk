@@ -21,5 +21,4 @@ final class Leave extends \SendbirdSDK\SendbirdPlatformSDK
     {
         return self::client()->resource(\SendbirdSDK\Resources\V3\GroupChannels\ByChannelUrl\Leave::class)->put($channel_url, $params);
     }
-
 }

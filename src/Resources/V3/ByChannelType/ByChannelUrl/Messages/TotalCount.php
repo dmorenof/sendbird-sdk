@@ -28,5 +28,4 @@ final class TotalCount extends \SendbirdSDK\Client
         $result = $this->executeArguments(self::operation(self::GET), path: $identifier, parameters: $params);
         return $result;
     }
-
 }

@@ -92,5 +92,4 @@ final class Users extends \SendbirdSDK\SendbirdPlatformSDK
     {
         return self::client()->resource(\SendbirdSDK\Resources\V3\Users::class)->putByUserId($user_id, $params);
     }
-
 }

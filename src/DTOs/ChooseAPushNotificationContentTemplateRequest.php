@@ -7,8 +7,8 @@ namespace SendbirdSDK\DTOs;
 final class ChooseAPushNotificationContentTemplateRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'name',
-];
+        'name',
+    ];
 
     /**
      * Specifies the name of a template used for notifications. Acceptable values are default and alternative. (Default: default)

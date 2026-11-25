@@ -10,8 +10,8 @@ namespace SendbirdSDK\DTOs;
 final class GroupChannelListMembersResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'members',
-];
+        'members',
+    ];
 
     public \SendbirdSDK\Collections\Sendbird\GroupChannel\MembersCollection $members;
     public string $next;

@@ -7,8 +7,8 @@ namespace SendbirdSDK\DTOs\Update\UserMetadata;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'metadata',
-];
+        'metadata',
+    ];
 
     public ?\SendbirdSDK\DTOs\Update\UserMetadata\Request\MetadataDTO $metadata;
     public ?bool $upsert;

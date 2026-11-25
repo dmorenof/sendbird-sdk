@@ -24,5 +24,4 @@ final class Send extends \SendbirdSDK\SendbirdPlatformSDK
     {
         return self::client()->resource(\SendbirdSDK\Resources\V3\Bots\ByBotUserid\Send::class)->post($bot_userid, $params);
     }
-
 }

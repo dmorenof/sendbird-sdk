@@ -8,15 +8,15 @@ class Client extends \Dmorenof\SdkRuntime\ApiClient
 {
     protected const array SECURITY_SCHEMES = [];
     protected const array SERVERS = [
-    [
-        'url' => 'https://api-{app_id}.sendbird.com',
-        'variables' => [
-            'app_id' => [
-                'default' => 'APP_ID',
+        [
+            'url' => 'https://api-{app_id}.sendbird.com',
+            'variables' => [
+                'app_id' => [
+                    'default' => 'APP_ID',
+                ],
             ],
         ],
-    ],
-];
+    ];
 
     private static ?self $currentConnection = null;
 

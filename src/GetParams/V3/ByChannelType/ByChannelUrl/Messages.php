@@ -7,46 +7,46 @@ namespace SendbirdSDK\GetParams\V3\ByChannelType\ByChannelUrl;
 final class Messages extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'message_id',
-    'message_ts',
-];
+        'message_id',
+        'message_ts',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'custom_types' => 'custom_types',
-        'include' => 'include_',
-        'include_parent_message_info' => 'include_parent_message_info',
-        'include_poll_details' => 'include_poll_details',
-        'include_reactions' => 'include_reactions',
-        'include_reply_type' => 'include_reply_type',
-        'include_thread_info' => 'include_thread_info',
-        'including_removed' => 'including_removed',
-        'message_id' => 'message_id',
-        'message_ts' => 'message_ts',
-        'message_type' => 'message_type',
-        'next_limit' => 'next_limit',
-        'operator_filter' => 'operator_filter',
-        'prev_limit' => 'prev_limit',
-        'reverse' => 'reverse',
-        'sender_id' => 'sender_id',
-        'sender_ids' => 'sender_ids',
-        'show_subchannel_messages_only' => 'show_subchannel_messages_only',
-        'user_id' => 'user_id',
-        'with_sorted_meta_array' => 'with_sorted_meta_array',
-    ],
-    'header' => [
-        'api-token' => 'apiToken',
-    ],
-];
+        'path' => [],
+        'query' => [
+            'custom_types' => 'custom_types',
+            'include' => 'include_',
+            'include_parent_message_info' => 'include_parent_message_info',
+            'include_poll_details' => 'include_poll_details',
+            'include_reactions' => 'include_reactions',
+            'include_reply_type' => 'include_reply_type',
+            'include_thread_info' => 'include_thread_info',
+            'including_removed' => 'including_removed',
+            'message_id' => 'message_id',
+            'message_ts' => 'message_ts',
+            'message_type' => 'message_type',
+            'next_limit' => 'next_limit',
+            'operator_filter' => 'operator_filter',
+            'prev_limit' => 'prev_limit',
+            'reverse' => 'reverse',
+            'sender_id' => 'sender_id',
+            'sender_ids' => 'sender_ids',
+            'show_subchannel_messages_only' => 'show_subchannel_messages_only',
+            'user_id' => 'user_id',
+            'with_sorted_meta_array' => 'with_sorted_meta_array',
+        ],
+        'header' => [
+            'api-token' => 'apiToken',
+        ],
+    ];
 
     protected const array PROPERTY_MAP = [
-    'api-token' => 'apiToken',
-    'include' => 'include_',
-];
+        'api-token' => 'apiToken',
+        'include' => 'include_',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'apiToken' => 'api-token',
-    'include_' => 'include',
-];
+        'apiToken' => 'api-token',
+        'include_' => 'include',
+    ];
 
     public ?string $apiToken;
     public ?string $custom_types;

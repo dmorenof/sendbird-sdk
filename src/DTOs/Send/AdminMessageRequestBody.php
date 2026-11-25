@@ -7,9 +7,9 @@ namespace SendbirdSDK\DTOs\Send;
 final class AdminMessageRequestBody extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'message',
-    'message_type',
-];
+        'message',
+        'message_type',
+    ];
 
     public string $apns_bundle_id;
     public string $custom_type;

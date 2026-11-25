@@ -7,8 +7,8 @@ namespace SendbirdSDK\DTOs;
 final class AcceptAnInvitationRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'user_id',
-];
+        'user_id',
+    ];
 
     public ?string $access_code;
     public string $user_id;

@@ -23,5 +23,4 @@ final class Freeze extends \SendbirdSDK\SendbirdPlatformSDK
     {
         return self::client()->resource(\SendbirdSDK\Resources\V3\GroupChannels\ByChannelUrl\Freeze::class)->put($channel_url, $params);
     }
-
 }

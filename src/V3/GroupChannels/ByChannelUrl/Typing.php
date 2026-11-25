@@ -45,5 +45,4 @@ final class Typing extends \SendbirdSDK\SendbirdPlatformSDK
     {
         return self::client()->resource(\SendbirdSDK\Resources\V3\GroupChannels\ByChannelUrl\Typing::class)->post($channel_url, $params);
     }
-
 }

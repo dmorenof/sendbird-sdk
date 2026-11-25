@@ -7,33 +7,33 @@ namespace SendbirdSDK\GetParams\V3\GroupChannels\ByChannelUrl;
 final class Members extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'include_push_preference' => 'include_push_preference',
-        'limit' => 'limit',
-        'member_active_mode_filter' => 'member_active_mode_filter',
-        'member_state_filter' => 'member_state_filter',
-        'muted_member_filter' => 'muted_member_filter',
-        'nickname_startswith' => 'nickname_startswith',
-        'operator_filter' => 'operator_filter',
-        'order' => 'order',
-        'show_delivery_receipt' => 'show_delivery_receipt',
-        'show_member_is_muted' => 'show_member_is_muted',
-        'show_read_receipt' => 'show_read_receipt',
-        'token' => 'token',
-        'user_id' => 'user_id',
-    ],
-    'header' => [
-        'api-token' => 'apiToken',
-    ],
-];
+        'path' => [],
+        'query' => [
+            'include_push_preference' => 'include_push_preference',
+            'limit' => 'limit',
+            'member_active_mode_filter' => 'member_active_mode_filter',
+            'member_state_filter' => 'member_state_filter',
+            'muted_member_filter' => 'muted_member_filter',
+            'nickname_startswith' => 'nickname_startswith',
+            'operator_filter' => 'operator_filter',
+            'order' => 'order',
+            'show_delivery_receipt' => 'show_delivery_receipt',
+            'show_member_is_muted' => 'show_member_is_muted',
+            'show_read_receipt' => 'show_read_receipt',
+            'token' => 'token',
+            'user_id' => 'user_id',
+        ],
+        'header' => [
+            'api-token' => 'apiToken',
+        ],
+    ];
 
     protected const array PROPERTY_MAP = [
-    'api-token' => 'apiToken',
-];
+        'api-token' => 'apiToken',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'apiToken' => 'api-token',
-];
+        'apiToken' => 'api-token',
+    ];
 
     public ?string $apiToken;
     public ?bool $include_push_preference;

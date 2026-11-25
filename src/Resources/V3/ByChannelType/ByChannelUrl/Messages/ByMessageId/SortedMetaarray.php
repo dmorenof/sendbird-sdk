@@ -86,5 +86,4 @@ final class SortedMetaarray extends \SendbirdSDK\Client
         $result = $this->executeArguments(self::operation(self::PUT), path: $identifier, parameters: $params);
         return $result;
     }
-
 }

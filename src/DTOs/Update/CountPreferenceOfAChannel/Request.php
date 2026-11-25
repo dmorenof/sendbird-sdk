@@ -7,8 +7,8 @@ namespace SendbirdSDK\DTOs\Update\CountPreferenceOfAChannel;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'count_preference',
-];
+        'count_preference',
+    ];
 
     public \SendbirdSDK\Enums\Update\CountPreferenceOfAChannel\Request\CountPreferenceEnum $count_preference;
 

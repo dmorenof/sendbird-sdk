@@ -7,8 +7,8 @@ namespace SendbirdSDK\DTOs\Get\AGroupChannel;
 final class Response extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'channel_url',
-];
+        'channel_url',
+    ];
 
     public \SendbirdSDK\DTOs\Sendbird\GroupChannelDetailChannel $channel;
     public string $channel_url;

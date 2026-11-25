@@ -88,5 +88,4 @@ final class GroupChannels extends \SendbirdSDK\SendbirdPlatformSDK
     {
         return self::client()->resource(\SendbirdSDK\Resources\V3\GroupChannels::class)->putByChannelUrl($channel_url, $params);
     }
-
 }

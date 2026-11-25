@@ -50,5 +50,4 @@ final class ByTokenType extends \SendbirdSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_TOKEN), path: $identifier, parameters: $params);
         return $result;
     }
-
 }

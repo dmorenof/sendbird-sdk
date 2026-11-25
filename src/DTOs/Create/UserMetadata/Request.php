@@ -7,9 +7,8 @@ namespace SendbirdSDK\DTOs\Create\UserMetadata;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'metadata',
-];
+        'metadata',
+    ];
 
     public \SendbirdSDK\DTOs\Create\UserMetadata\Request\MetadataDTO $metadata;
-
 }

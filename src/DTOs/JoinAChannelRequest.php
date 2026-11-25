@@ -7,8 +7,8 @@ namespace SendbirdSDK\DTOs;
 final class JoinAChannelRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'user_id',
-];
+        'user_id',
+    ];
 
     /**
      * This property should be specified if the public group channel to join requires an access code to users, which means that the is_access_code_required property of the channel resource is true.

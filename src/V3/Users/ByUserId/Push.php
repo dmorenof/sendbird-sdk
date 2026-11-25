@@ -57,5 +57,4 @@ final class Push extends \SendbirdSDK\SendbirdPlatformSDK
     {
         return self::client()->resource(\SendbirdSDK\Resources\V3\Users\ByUserId\Push::class)->postByTokenType($identifier, $params);
     }
-
 }

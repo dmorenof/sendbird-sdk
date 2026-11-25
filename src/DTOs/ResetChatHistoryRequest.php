@@ -7,8 +7,8 @@ namespace SendbirdSDK\DTOs;
 final class ResetChatHistoryRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'user_id',
-];
+        'user_id',
+    ];
 
     public bool $reset_all;
     public string $user_id;

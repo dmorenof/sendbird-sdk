@@ -7,8 +7,8 @@ namespace SendbirdSDK\DTOs\Create\AChannelMetadata;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'metadata',
-];
+        'metadata',
+    ];
 
     public bool $include_ts;
     public ?\SendbirdSDK\DTOs\Create\AChannelMetadata\Request\MetadataDTO $metadata;

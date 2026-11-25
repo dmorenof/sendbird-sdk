@@ -36,5 +36,4 @@ final class ByTokenType extends \SendbirdSDK\SendbirdPlatformSDK
     {
         return self::client()->resource(\SendbirdSDK\Resources\V3\Push\DeviceTokens\ByTokenType::class)->getByToken($identifier, $params);
     }
-
 }

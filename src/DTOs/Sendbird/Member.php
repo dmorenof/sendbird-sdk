@@ -10,8 +10,8 @@ namespace SendbirdSDK\DTOs\Sendbird;
 final class Member extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'user_id',
-];
+        'user_id',
+    ];
 
     /**
      * Format: int64

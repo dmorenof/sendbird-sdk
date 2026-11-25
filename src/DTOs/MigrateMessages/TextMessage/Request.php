@@ -7,17 +7,17 @@ namespace SendbirdSDK\DTOs\MigrateMessages\TextMessage;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'message',
-    'message_type',
-    'timestamp',
-    'user_id',
-];
+        'message',
+        'message_type',
+        'timestamp',
+        'user_id',
+    ];
 
     protected const array VALIDATION = [
-    'custom_type' => [
-        'maxLength' => 128,
-    ],
-];
+        'custom_type' => [
+            'maxLength' => 128,
+        ],
+    ];
 
     public string $custom_type {
         set {

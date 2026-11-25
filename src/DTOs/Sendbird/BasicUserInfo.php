@@ -10,8 +10,8 @@ namespace SendbirdSDK\DTOs\Sendbird;
 final class BasicUserInfo extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'user_id',
-];
+        'user_id',
+    ];
 
     public bool $is_active;
     public bool $is_blocked_by_me;

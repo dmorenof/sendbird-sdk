@@ -7,8 +7,8 @@ namespace SendbirdSDK\DTOs;
 final class FreezeAnOpenChannelRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'freeze',
-];
+        'freeze',
+    ];
 
     /**
      * Determines whether to freeze the channel. (Default: true)

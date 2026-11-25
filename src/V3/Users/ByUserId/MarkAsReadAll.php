@@ -20,5 +20,4 @@ final class MarkAsReadAll extends \SendbirdSDK\SendbirdPlatformSDK
     {
         return self::client()->resource(\SendbirdSDK\Resources\V3\Users\ByUserId\MarkAsReadAll::class)->put($user_id, $params);
     }
-
 }

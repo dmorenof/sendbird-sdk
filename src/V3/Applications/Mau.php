@@ -23,5 +23,4 @@ final class Mau extends \SendbirdSDK\SendbirdPlatformSDK
     {
         return self::client()->resource(\SendbirdSDK\Resources\V3\Applications\Mau::class)->get($params);
     }
-
 }

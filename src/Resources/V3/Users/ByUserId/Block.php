@@ -89,5 +89,4 @@ final class Block extends \SendbirdSDK\Client
         $result = $this->executeArguments(self::operation(self::DELETE_BY_TARGET_ID), path: $identifier, parameters: $params);
         return $result;
     }
-
 }

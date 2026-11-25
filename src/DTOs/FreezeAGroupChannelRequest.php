@@ -7,8 +7,8 @@ namespace SendbirdSDK\DTOs;
 final class FreezeAGroupChannelRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'freeze',
-];
+        'freeze',
+    ];
 
     public bool $freeze;
 

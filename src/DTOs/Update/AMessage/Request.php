@@ -7,8 +7,8 @@ namespace SendbirdSDK\DTOs\Update\AMessage;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'message_type',
-];
+        'message_type',
+    ];
 
     public string $custom_type;
     public string $data;

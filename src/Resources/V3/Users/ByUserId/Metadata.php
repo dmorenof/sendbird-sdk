@@ -136,5 +136,4 @@ final class Metadata extends \SendbirdSDK\Client
         $result = $this->executeArguments(self::operation(self::PUT_BY_KEY), path: $identifier, parameters: $params);
         return $result;
     }
-
 }

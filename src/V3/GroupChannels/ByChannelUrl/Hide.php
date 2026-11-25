@@ -41,5 +41,4 @@ final class Hide extends \SendbirdSDK\SendbirdPlatformSDK
     {
         return self::client()->resource(\SendbirdSDK\Resources\V3\GroupChannels\ByChannelUrl\Hide::class)->put($channel_url, $params);
     }
-
 }

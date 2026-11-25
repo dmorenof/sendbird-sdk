@@ -104,5 +104,4 @@ final class PushPreference extends \SendbirdSDK\SendbirdPlatformSDK
     {
         return self::client()->resource(\SendbirdSDK\Resources\V3\Users\ByUserId\PushPreference::class)->putByChannelUrl($identifier, $params);
     }
-
 }

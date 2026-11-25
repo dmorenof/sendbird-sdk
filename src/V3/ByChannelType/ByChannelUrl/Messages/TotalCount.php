@@ -21,5 +21,4 @@ final class TotalCount extends \SendbirdSDK\SendbirdPlatformSDK
     {
         return self::client()->resource(\SendbirdSDK\Resources\V3\ByChannelType\ByChannelUrl\Messages\TotalCount::class)->get($identifier, $params);
     }
-
 }

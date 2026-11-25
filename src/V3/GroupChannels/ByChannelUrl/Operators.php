@@ -58,5 +58,4 @@ final class Operators extends \SendbirdSDK\SendbirdPlatformSDK
     {
         return self::client()->resource(\SendbirdSDK\Resources\V3\GroupChannels\ByChannelUrl\Operators::class)->post($channel_url, $params);
     }
-
 }

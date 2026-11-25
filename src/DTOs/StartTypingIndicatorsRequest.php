@@ -7,8 +7,8 @@ namespace SendbirdSDK\DTOs;
 final class StartTypingIndicatorsRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'user_ids',
-];
+        'user_ids',
+    ];
 
     public \SendbirdSDK\Collections\StringCollection $user_ids;
 

@@ -7,9 +7,9 @@ namespace SendbirdSDK\DTOs\Send\AMessage;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'message_type',
-    'user_id',
-];
+        'message_type',
+        'user_id',
+    ];
 
     public string $apns_bundle_id;
     public \SendbirdSDK\DTOs\Send\AMessage\Request\AlertOptionsDTO $apple_critical_alert_options;

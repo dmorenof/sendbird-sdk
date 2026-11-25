@@ -38,5 +38,4 @@ final class Template extends \SendbirdSDK\Client
         $result = $this->executeArguments(self::operation(self::PUT), path: ['user_id' => $user_id], parameters: $params);
         return $result;
     }
-
 }

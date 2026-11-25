@@ -10,8 +10,8 @@ namespace SendbirdSDK\DTOs\Sendbird;
 final class OpenChannel extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'channel_url',
-];
+        'channel_url',
+    ];
 
     public string $channel_url;
     public string $cover_url;

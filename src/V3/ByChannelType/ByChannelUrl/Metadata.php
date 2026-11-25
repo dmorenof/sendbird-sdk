@@ -90,5 +90,4 @@ final class Metadata extends \SendbirdSDK\SendbirdPlatformSDK
     {
         return self::client()->resource(\SendbirdSDK\Resources\V3\ByChannelType\ByChannelUrl\Metadata::class)->put($identifier, $params);
     }
-
 }

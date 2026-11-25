@@ -10,8 +10,8 @@ namespace SendbirdSDK\DTOs\Sendbird;
 final class GroupChannelDetail extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'channel_url',
-];
+        'channel_url',
+    ];
 
     public \SendbirdSDK\DTOs\Sendbird\GroupChannelDetailChannel $channel;
     public string $channel_url;

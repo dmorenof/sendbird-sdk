@@ -36,5 +36,4 @@ final class Token extends \SendbirdSDK\Client
         $result = $this->executeArguments(self::operation(self::POST), path: ['user_id' => $user_id], parameters: $params);
         return $result;
     }
-
 }

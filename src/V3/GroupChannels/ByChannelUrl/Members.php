@@ -45,5 +45,4 @@ final class Members extends \SendbirdSDK\SendbirdPlatformSDK
     {
         return self::client()->resource(\SendbirdSDK\Resources\V3\GroupChannels\ByChannelUrl\Members::class)->getByUserId($identifier, $params);
     }
-
 }

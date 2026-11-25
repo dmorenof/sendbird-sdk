@@ -10,8 +10,8 @@ namespace SendbirdSDK\DTOs\Create\ABot;
 final class Response extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'bot',
-];
+        'bot',
+    ];
 
     public \SendbirdSDK\DTOs\Create\ABotResponseBot $bot;
     public string $bot_callback_url;

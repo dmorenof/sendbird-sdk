@@ -7,13 +7,13 @@ namespace SendbirdSDK\DTOs\Create\ABot;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'bot_callback_url',
-    'bot_nickname',
-    'bot_profile_url',
-    'bot_type',
-    'bot_userid',
-    'is_privacy_mode',
-];
+        'bot_callback_url',
+        'bot_nickname',
+        'bot_profile_url',
+        'bot_type',
+        'bot_userid',
+        'is_privacy_mode',
+    ];
 
     public string $bot_callback_url;
     /**

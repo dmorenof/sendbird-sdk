@@ -53,5 +53,4 @@ final class SortedMetaarray extends \SendbirdSDK\SendbirdPlatformSDK
     {
         return self::client()->resource(\SendbirdSDK\Resources\V3\ByChannelType\ByChannelUrl\Messages\ByMessageId\SortedMetaarray::class)->put($identifier, $params);
     }
-
 }

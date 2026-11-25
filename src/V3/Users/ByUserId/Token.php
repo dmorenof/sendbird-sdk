@@ -23,5 +23,4 @@ final class Token extends \SendbirdSDK\SendbirdPlatformSDK
     {
         return self::client()->resource(\SendbirdSDK\Resources\V3\Users\ByUserId\Token::class)->post($user_id, $params);
     }
-
 }

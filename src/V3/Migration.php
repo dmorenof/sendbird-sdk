@@ -32,5 +32,4 @@ final class Migration extends \SendbirdSDK\SendbirdPlatformSDK
     {
         return self::client()->resource(\SendbirdSDK\Resources\V3\Migration::class)->postByTargetChannelUrl($target_channel_url, $params);
     }
-
 }

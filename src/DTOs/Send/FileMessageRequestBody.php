@@ -7,9 +7,9 @@ namespace SendbirdSDK\DTOs\Send;
 final class FileMessageRequestBody extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'files',
-    'message_type',
-];
+        'files',
+        'message_type',
+    ];
 
     public string $apns_bundle_id;
     public \SendbirdSDK\DTOs\Send\FileMessageRequestBody\AlertOptionsDTO $apple_critical_alert_options;

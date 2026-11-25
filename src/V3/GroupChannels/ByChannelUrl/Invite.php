@@ -23,5 +23,4 @@ final class Invite extends \SendbirdSDK\SendbirdPlatformSDK
     {
         return self::client()->resource(\SendbirdSDK\Resources\V3\GroupChannels\ByChannelUrl\Invite::class)->post($channel_url, $params);
     }
-
 }

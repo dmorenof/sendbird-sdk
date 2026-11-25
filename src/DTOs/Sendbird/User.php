@@ -11,8 +11,8 @@ namespace SendbirdSDK\DTOs\Sendbird;
 final class User extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'user_id',
-];
+        'user_id',
+    ];
 
     public string $access_token;
     /**

@@ -7,8 +7,8 @@ namespace SendbirdSDK\DTOs\Create\AGroupChannel;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'users',
-];
+        'users',
+    ];
 
     public ?string $access_code;
     public ?bool $block_sdk_user_channel_join;

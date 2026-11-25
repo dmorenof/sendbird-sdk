@@ -34,5 +34,4 @@ final class UnreadMessageCount extends \SendbirdSDK\Client
         $result = $this->executeArguments(self::operation(self::GET), path: ['user_id' => $user_id], parameters: $params);
         return $result;
     }
-
 }

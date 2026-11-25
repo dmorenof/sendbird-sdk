@@ -7,9 +7,9 @@ namespace SendbirdSDK\DTOs\Send\ABotMessage;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'channel_url',
-    'message_type',
-];
+        'channel_url',
+        'message_type',
+    ];
 
     /**
      * * This property is available when message_type is FILE.

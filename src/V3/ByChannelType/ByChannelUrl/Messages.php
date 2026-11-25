@@ -104,5 +104,4 @@ final class Messages extends \SendbirdSDK\SendbirdPlatformSDK
     {
         return self::client()->resource(\SendbirdSDK\Resources\V3\ByChannelType\ByChannelUrl\Messages::class)->putByMessageId($identifier, $params);
     }
-
 }

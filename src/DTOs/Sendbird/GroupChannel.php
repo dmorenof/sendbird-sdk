@@ -10,8 +10,8 @@ namespace SendbirdSDK\DTOs\Sendbird;
 final class GroupChannel extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'channel_url',
-];
+        'channel_url',
+    ];
 
     public string $channel_url;
     public \SendbirdSDK\Enums\Sendbird\GroupChannel\CountPreferenceEnum $count_preference;

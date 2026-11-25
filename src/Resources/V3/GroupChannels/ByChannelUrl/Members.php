@@ -59,5 +59,4 @@ final class Members extends \SendbirdSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_USER_ID), path: $identifier, parameters: $params);
         return $result;
     }
-
 }

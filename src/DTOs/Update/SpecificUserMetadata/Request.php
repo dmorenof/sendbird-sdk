@@ -7,8 +7,8 @@ namespace SendbirdSDK\DTOs\Update\SpecificUserMetadata;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'value',
-];
+        'value',
+    ];
 
     public string $value;
 

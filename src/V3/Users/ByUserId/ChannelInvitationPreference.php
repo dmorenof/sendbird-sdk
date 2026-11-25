@@ -35,5 +35,4 @@ final class ChannelInvitationPreference extends \SendbirdSDK\SendbirdPlatformSDK
     {
         return self::client()->resource(\SendbirdSDK\Resources\V3\Users\ByUserId\ChannelInvitationPreference::class)->put($user_id, $params);
     }
-
 }
