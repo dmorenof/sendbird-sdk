@@ -1,0 +1,21 @@
+<?php
+
+declare(strict_types=1);
+
+namespace SendbirdSDK\DTOs\Send\ABotMessage;
+
+/**
+ * Example: {"message":{"data":"data","message_events":{"update_last_message":true,"update_mention_count":true,"send_push_notification":"send_push_notification","update_unread_count":true},"custom_type":"custom_type","is_reply_to_channel":true,"created_at":7,"is_removed":true,"type":"type","req_id":"req_id","file":"{}","updated_at":3,"translations":"{}","thread_info":"{}","mentioned_users":[{"metadata":"{}","require_auth_for_profile_image":true,"is_active":true,"role":"","user_id":"user_id","profile_url":"profile_url","nickname":"nickname","is_blocked_by_me":true},{"metadata":"{}","require_auth_for_profile_image":true,"is_active":true,"role":"","user_id":"user_id","profile_url":"profile_url","nickname":"nickname","is_blocked_by_me":true}],"channel_type":"channel_type","message_survival_seconds":9,"silent":true,"parent_message_id":4,"parent_message_info":{"file":{"file_name":"file_name","file_type":"file_type","require_auth":true,"thumbnails":[{"real_width":1,"width":1,"plain_url":"plain_url","real_height":1,"url":"url","height":7},{"real_width":1,"width":1,"plain_url":"plain_url","real_height":1,"url":"url","height":7}],"url":"url","file_size":4},"custom_type":"custom_type","files":[{"file_name":"file_name","file_type":"file_type","require_auth":true,"thumbnails":[{"real_width":1,"width":1,"plain_url":"plain_url","real_height":1,"url":"url","height":7},{"real_width":1,"width":1,"plain_url":"plain_url","real_height":1,"url":"url","height":7}],"url":"url","file_size":4},{"file_name":"file_name","file_type":"file_type","require_auth":true,"thumbnails":[{"real_width":1,"width":1,"plain_url":"plain_url","real_height":1,"url":"url","height":7},{"real_width":1,"width":1,"plain_url":"plain_url","real_height":1,"url":"url","height":7}],"url":"url","file_size":4}],"message":"message","type":"type","user":{"metadata":"{}","is_active":true,"preferred_languages":["preferred_languages","preferred_languages"],"require_auth_for_profile_image":true,"unread_channel_count":6,"discovery_keys":["discovery_keys","discovery_keys"],"profile_url":"profile_url","is_created":true,"created_at":9,"has_ever_logged_in":true,"locale":"locale","unread_message_count":8,"access_token":"access_token","is_shadow_blocked":true,"user_id":"user_id","nickname":"nickname","phone_number":"phone_number","is_online":true,"state":"","is_hide_me_from_friends":true,"last_seen_at":9},"ts":5},"require_auth":true,"message_id":1,"sorted_metaarray":[{"value":["value","value"],"key":"key"},{"value":["value","value"],"key":"key"}],"mention_type":"mention_type","message":"message","channel_url":"channel_url","is_op_msg":true,"message_retention_hour":6,"extended_message_payload":null,"files":[{"file_name":"file_name","file_type":"file_type","require_auth":true,"thumbnails":[{"real_width":1,"width":1,"plain_url":"plain_url","real_height":1,"url":"url","height":7},{"real_width":1,"width":1,"plain_url":"plain_url","real_height":1,"url":"url","height":7}],"url":"url","file_size":4},{"file_name":"file_name","file_type":"file_type","require_auth":true,"thumbnails":[{"real_width":1,"width":1,"plain_url":"plain_url","real_height":1,"url":"url","height":7},{"real_width":1,"width":1,"plain_url":"plain_url","real_height":1,"url":"url","height":7}],"url":"url","file_size":4}],"reactions":[{"updated_at":2,"user_ids":["user_ids","user_ids"],"key":"key"},{"updated_at":2,"user_ids":["user_ids","user_ids"],"key":"key"}],"user":{"metadata":"{}","require_auth_for_profile_image":true,"is_active":true,"role":"","user_id":"user_id","profile_url":"profile_url","nickname":"nickname","is_blocked_by_me":true}}}
+ */
+final class Response extends \Dmorenof\SdkRuntime\DTO
+{
+    public \SendbirdSDK\DTOs\Sendbird\Message\Response $message;
+
+    protected function assignMember(string $name, mixed $value): void
+    {
+        match ($name) {
+            'message' => $value instanceof \stdClass ? $this->message = new \SendbirdSDK\DTOs\Sendbird\Message\Response($value) : parent::assignMember($name, $value),
+            default => parent::assignMember($name, $value),
+        };
+    }
+}

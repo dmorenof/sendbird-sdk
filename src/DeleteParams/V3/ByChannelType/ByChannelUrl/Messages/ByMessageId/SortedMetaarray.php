@@ -1,0 +1,28 @@
+<?php
+
+declare(strict_types=1);
+
+namespace SendbirdSDK\DeleteParams\V3\ByChannelType\ByChannelUrl\Messages\ByMessageId;
+
+final class SortedMetaarray extends \Dmorenof\SdkRuntime\DTO
+{
+    public const array OPERATION_FIELDS = [
+    'path' => [],
+    'query' => [
+        'keys' => 'keys',
+    ],
+    'header' => [
+        'api-token' => 'apiToken',
+    ],
+];
+
+    protected const array PROPERTY_MAP = [
+    'api-token' => 'apiToken',
+];
+    protected const array WIRE_PROPERTY_MAP = [
+    'apiToken' => 'api-token',
+];
+
+    public ?string $apiToken;
+    public ?string $keys;
+}

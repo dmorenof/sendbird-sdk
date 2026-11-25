@@ -1,0 +1,46 @@
+{
+    "name": "dmorenof/sendbird-sdk",
+    "description": "Unofficial PHP SDK for the Sendbird Chat Platform API (users, channels, messages, moderation, bots, announcements and more).",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/dmorenof/sendbird-sdk",
+    "keywords": [
+        "sdk",
+        "api-client",
+        "php",
+        "openapi",
+        "sdk-runtime"
+    ],
+    "authors": [
+        {
+            "name": "David Moreno Falero",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "dmorenof/sdk-runtime": "^1.13.0",
+        "php": "^8.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.5",
+        "phpstan/phpstan": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "SendbirdSDK\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SdkTests\\": "Tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {}
+    },
+    "scripts": {
+        "test": "phpunit -c phpunit.xml",
+        "analyse": "phpstan analyse --no-progress --memory-limit=-1"
+    }
+}
